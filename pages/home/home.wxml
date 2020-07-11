@@ -1,0 +1,20 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+
+<view class="home">
+  <view hidden="{{!showTabControl}}">
+    <h-tab-control class="tab-control-temp" titles="{{titles}}" bind:tabclick="tabClick"/>
+  </view>
+
+  <scroll-view class="content" scroll-y bindscrolltolower="loadMore"
+                scroll-with-animation="true" scroll-top="{{topPosition}}"
+                bindscroll="scrollPosition">
+    <h-swiper images="{{banners}}"/>
+    <h-recommend recommends="{{recommends}}" bind:imageLoad="onImageLoad"/>
+    <h-feature/>
+    <h-tab-control class="tab-control" titles="{{titles}}" bind:tabclick="tabClick"/>
+    <!-- <h-tab-control titles="{{titles}}"/>   -->
+    <h-goods goodslist="{{goods[currentType].list}}"/>
+    <h-back-top bindtap="onBackTop" wx:if="{{showBackTop}}"/>
+  </scroll-view>
+</view>

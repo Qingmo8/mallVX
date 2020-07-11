@@ -1,0 +1,12 @@
+<!--pages/detail/dateil.wxml-->
+<scroll-view class="deatil" scroll-y>
+  <h-swiper class="d-swiper" images="{{topImages}}"/>
+  <h-base-info baseInfo="{{baseInfo}}"/>
+  <h-shop-info shopInfo="{{shopInfo}}"/>
+  <h-detail-info detailInfo="{{detailInfo}}"/>
+  <h-param-info paramInfo="{{paramInfo}}"/>
+  <h-comment-info commentInfo="{{commentInfo}}"/>
+  <h-recommend-info recommends="{{recommends}}"/>
+</scroll-view>
+<h-bottom-bar bind:addcart="onAddCart"/>
+<h-back-top bindtap="onBackTop" wx:if="{{showBackTop}}"/>

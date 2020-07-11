@@ -1,0 +1,4 @@
+<!--pages/home/child/h-feature/h-feature.wxml-->
+<view class="feature">
+<image class="images" src="/assest/images/home/recommend_bg.jpg"></image>
+</view>

@@ -1,0 +1,57 @@
+/* components/h-goods-item/h-goods-item.wxss */
+.goods-item {
+  /* width: 200rpx; */
+  text-align: center;
+  color: #333;
+  padding-bottom: 85rpx;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10rpx;
+}
+
+.desc-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5rpx;
+}
+
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+}
+
+.info .price {
+  color: #ff5777;
+  font-size: 32rpx;
+  /* padding-right: 10rpx; */
+}
+
+.info .icon {
+  width: 30rpx;
+  height: 30rpx;
+  padding: 0 6rpx 0 10rpx;
+  position: relative;
+  top: 4rpx;
+}
+
+.cfav {
+  font-size: 32rpx;
+  /* padding-left: 10rpx; */
+  position: relative;
+}
+
+/* 伪类元素 */
+/* .cfav::before {
+  content: '';
+  position: absolute;
+  left: -15rpx;
+  top: -1rpx;
+  width: 14rpx;
+  height: 14rpx;
+  background: url("../../assest/images/common/favor.png") 0 0/14rpx 14rpx;
+} */

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "h-check-icon": "/components/h-check-icon/h-check-icon"
+  }
+}

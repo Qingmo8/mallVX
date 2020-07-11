@@ -1,0 +1,18 @@
+/* components/h-goods/h-goods.wxss */
+.goods {
+  display: flex;
+  /* 多出换行 */
+  flex-wrap: wrap;
+  /* 均等分 */
+  justify-content: space-around;
+  padding: 8rpx;
+}
+
+.goods > .goods-item {
+  position: relative;
+}
+
+.goods > .goods-item {
+  width: 48%;
+  margin-top: 20rpx;
+}

@@ -1,0 +1,7 @@
+<!--pages/detail/child/h-recommend-info/h-recommend-info.wxml-->
+<view class="recommends">
+  <view class="header">商品推荐</view>
+  <view class="content">
+    <h-goods goodslist="{{recommends}}"/>
+  </view>
+</view>

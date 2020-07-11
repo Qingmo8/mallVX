@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/profile/profile",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "爱购物"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "debug": true,
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/assest/images/tabbar/home.png",
+        "selectedIconPath": "/assest/images/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "/assest/images/tabbar/category.png",
+        "selectedIconPath": "/assest/images/tabbar/category_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/assest/images/tabbar/cart.png",
+        "selectedIconPath": "/assest/images/tabbar/cart_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/assest/images/tabbar/profile.png",
+        "selectedIconPath": "/assest/images/tabbar/profile_active.png"
+      }
+    ]
+  }
+}

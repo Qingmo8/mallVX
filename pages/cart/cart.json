@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "h-cart-list-item": "./child/h-cart-list-item/h-cart-list-item",
+    "h-bottom-bar": "./child/h-bottom-bar/h-bottom-bar"
+    
+  }
+}

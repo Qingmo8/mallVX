@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "h-header": "./child/h-header/h-header",
+    "h-info": "./child/h-info/h-info",
+    "h-list-view": "./child/h-list-view/h-list-view"
+  },
+  "navigationBarTitleText": "我的信息"
+}

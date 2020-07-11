@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    
+    "h-swiper": "/components/h-swiper/h-swiper",
+    "h-recommend": "./child/h-recommend/h-recommend",
+    "h-feature": "./child/h-feature/h-feature",
+    "h-tab-control": "/components/h-tab-control/h-tab-control",
+    "h-goods": "/components/h-goods/h-goods",
+    "h-back-top": "/components/h-back-top/h-back-top"
+
+  }
+}

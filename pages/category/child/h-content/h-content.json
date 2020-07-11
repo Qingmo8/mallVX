@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "h-tab-control": "/components/h-tab-control/h-tab-control",
+    "h-goods": "/components/h-goods/h-goods"
+  }
+}
